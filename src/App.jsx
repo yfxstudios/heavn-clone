@@ -203,9 +203,9 @@ function App() {
           </div>
         </div>
         <Hero />
-        <div className="bg-black flex justify-center items-center h-screen w-screen p-0 m-0">
+        {/* <div className="bg-black flex justify-center items-center h-screen w-screen p-0 m-0">
           you should not be here (lmk if you see this)
-        </div>
+        </div> */}
 
         <div
           className="w-screen h-screen overflow-x-hidden bg-[#F5F5F5] relative"
@@ -241,7 +241,7 @@ function App() {
           />
         </div>
 
-        <div className="w-screen bg-[#F0F0F0]  mt-[100vh]" ref={section2}>
+        <div className="w-screen bg-[#F0F0F0]" ref={section2}>
           <div className=" flex flex-row justify-between border-b-[1px] border-[#d4d4d4] py-16">
             <div className="flex flex-row justify-left text-[#18181A] text-[24px] font-medium w-full mx-32">
               Automatic light adjustment.
