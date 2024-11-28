@@ -243,10 +243,10 @@ function App() {
 
         <div className="w-screen bg-[#F0F0F0]" ref={section2}>
           <div className=" flex flex-row justify-between border-b-[1px] border-[#d4d4d4] py-16">
-            <div className="flex flex-row justify-left text-[#18181A] text-[24px] font-medium w-full mx-32">
+            <div className="flex flex-row justify-left text-[#18181A] text-[24px] font-medium w-full mx-32 overflow-hidden">
               Automatic light adjustment.
             </div>
-            <div className="flex flex-row items-left text-[#4a4a4a] text-[48px] font-semibold w-full mx-64 leading-[50px] ">
+            <div className="flex flex-row items-left text-[#4a4a4a] text-[48px] font-semibold w-full mx-64 leading-[50px] overflow-hidden">
               Your working day
               <br />
               with HEAVN One
@@ -269,11 +269,11 @@ function App() {
               />
               <div className="flex flex-col justify-start items-start pl-[20vw] pt-16 w-full">
                 <div className="flex flex-col w-1/2 gap-4">
-                  <h1 className=" text-[36px] font-medium w-full leading-[45px]">
+                  <h1 className=" text-[36px] font-medium w-full leading-[45px] overflow-hidden">
                     The energy boost <br />
                     in the morning.
                   </h1>
-                  <p className=" text-[16px] font-normal text-wrap">
+                  <p className=" text-[16px] font-normal text-wrap overflow-hidden">
                     The full-spectrum daylight lamp that can be switched on at
                     the front is a real wake-up call. With an effect of up to
                     10,000 lux, you reactivate your bodily functions for more
@@ -295,10 +295,10 @@ function App() {
               />
               <div className="flex flex-col justify-start items-start pl-[20vw] pt-16 w-full">
                 <div className="flex flex-col w-1/2 gap-4">
-                  <h1 className=" text-[36px] font-medium w-full leading-[45px]">
+                  <h1 className=" text-[36px] font-medium w-full leading-[45px] overflow-hidden">
                     Full light. Full focus.
                   </h1>
-                  <p className=" text-[16px] font-normal text-wrap">
+                  <p className=" text-[16px] font-normal text-wrap overflow-hidden">
                     The downward desk illumination provides wide-area
                     illumination with linear, shadow-free light. For effortless
                     work with documents or on the monitor.
@@ -319,10 +319,10 @@ function App() {
               />
               <div className="flex flex-col justify-start items-start pl-[20vw] pt-16 w-full">
                 <div className="flex flex-col w-1/2 gap-4">
-                  <h1 className=" text-[36px] font-medium w-full leading-[45px]">
+                  <h1 className=" text-[36px] font-medium w-full leading-[45px] overflow-hidden">
                     Sets the scene perfectly.
                   </h1>
-                  <p className=" text-[16px] font-normal text-wrap">
+                  <p className=" text-[16px] font-normal text-wrap overflow-hidden">
                     The switchable, frontal light function acts like a soft box
                     and creates a natural brightening of area around the face.
                     For a perfect appearance in video conferences!
@@ -346,12 +346,12 @@ function App() {
               />
               <div className="flex flex-col justify-start items-start pl-[20vw] pt-16 w-full">
                 <div className="flex flex-col w-1/2 gap-4">
-                  <h1 className=" text-[36px] font-medium w-full leading-[45px]">
+                  <h1 className=" text-[36px] font-medium w-full leading-[45px] overflow-hidden">
                     Outside dark.
                     <br />
                     Inside atmospheric.
                   </h1>
-                  <p className=" text-[16px] font-normal text-wrap">
+                  <p className=" text-[16px] font-normal text-wrap overflow-hidden">
                     The indirect light of HEAVN One creates an atmospheric
                     ambience and eliminates the cave feeling of typical desk
                     lamps.
@@ -377,12 +377,12 @@ function App() {
               />
               <div className="flex flex-col justify-start items-start pl-[20vw] pt-16 w-full">
                 <div className="flex flex-col w-1/2 gap-4">
-                  <h1 className=" text-[36px] font-medium w-full leading-[45px]">
+                  <h1 className=" text-[36px] font-medium w-full leading-[45px] overflow-hidden">
                     Healthy sleep.
                     <br />
                     Ideal regeneration.
                   </h1>
-                  <p className=" text-[16px] font-normal text-wrap">
+                  <p className=" text-[16px] font-normal text-wrap overflow-hidden">
                     In the evening, the light from HEAVN One becomes warmer and
                     stimulates the production of the sleep hormone melatonin in
                     your body.
@@ -397,7 +397,7 @@ function App() {
           </div>
 
           <div className="flex flex-col items-center w-screen bg-black">
-            <div className="text-[#f5f5f5] text-[48px] font-semibold text-center mt-32 leading-[55px] w-full">
+            <div className="text-[#f5f5f5] text-[48px] font-semibold text-center mt-32 leading-[55px] w-full overflow-hidden">
               Revolutionize{" "}
               <span className="text-[#999999]">
                 your
@@ -431,10 +431,10 @@ function App() {
                 className="flex flex-col items-center justify-center w-auto h-[200px] absolute bottom-32 right-64 opacity-100"
                 ref={animationText1}
               >
-                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full">
+                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full overflow-hidden">
                   Elegant design.
                 </p>
-                <p className="text-[#999999] text-[18px] font-normal text-left w-full">
+                <p className="text-[#999999] text-[18px] font-normal text-left w-full overflow-hidden">
                   For tasteful offices.
                 </p>
               </div>
@@ -443,10 +443,10 @@ function App() {
                 className="flex flex-col items-center justify-center w-auto h-[200px] absolute bottom-32 left-64 opacity-0"
                 ref={animationText2}
               >
-                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full">
+                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full overflow-hidden">
                   3 lights become HEAVN One.
                 </p>
-                <p className="text-[#999999] text-[18px] font-normal text-left w-full">
+                <p className="text-[#999999] text-[18px] font-normal text-left w-full overflow-hidden">
                   Desk lamp. Ceiling spotlight. Daylight.
                 </p>
               </div>
@@ -455,10 +455,10 @@ function App() {
                 className="flex flex-col items-center justify-center w-auto h-[200px] absolute bottom-32 right-64 opacity-0"
                 ref={animationText3}
               >
-                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full">
+                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full overflow-hidden">
                   Intuitive control.
                 </p>
-                <p className="text-[#999999] text-[18px] font-normal text-left w-full">
+                <p className="text-[#999999] text-[18px] font-normal text-left w-full overflow-hidden">
                   Also by app.
                 </p>
               </div>
@@ -467,10 +467,10 @@ function App() {
                 className="flex flex-col items-center justify-center w-auto h-[200px] absolute bottom-32 left-64 opacity-0"
                 ref={animationText4}
               >
-                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full">
+                <p className="text-[#f5f5f5] text-[18px] font-normal text-left w-full overflow-hidden">
                   Always a full smartphone battery.
                 </p>
-                <p className="text-[#999999] text-[18px] font-normal text-left w-full">
+                <p className="text-[#999999] text-[18px] font-normal text-left w-full overflow-hidden">
                   With wireless charging.
                 </p>
               </div>
@@ -478,16 +478,16 @@ function App() {
 
             <div className="flex flex-row items-center justify-center w-full gap-4 bg-[#f5f5f5] mt-[500vh]">
               <div className="flex flex-col items-center justify-center w-[50%] py-16">
-                <div className="text-[#18181A] text-[24px] font-medium">
+                <div className="text-[#18181A] text-[24px] font-medium overflow-hidden">
                   30 days risk-free trial.
                 </div>
               </div>
               <div className="w-1/2">
                 <div className="flex flex-col justify-center w-3/4 py-16 gap-4">
-                  <div className="text-[#18181A] text-[48px] font-semibold">
+                  <div className="text-[#18181A] text-[48px] font-semibold overflow-hidden">
                     Get your HEAVN One now.
                   </div>
-                  <div className="text-[#18181A] text-[16px] font-normal w-3/4">
+                  <div className="text-[#18181A] text-[16px] font-normal w-3/4 overflow-hidden">
                     Order HEAVN One in our online store and try it out without
                     any obligation. You can return the luminaire within 30 days
                     of ordering without giving a reason and receive a full
@@ -496,26 +496,26 @@ function App() {
 
                   <div className="flex flex-col w-4/5">
                     <div className="flex flex-row justify-between py-4 border-t-[1px] border-[#d4d4d4]">
-                      <div className="text-[#999999] text-[16px] font-normal">
+                      <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                         Promise
                       </div>
-                      <div className="text-[#999999] text-[16px] font-normal">
+                      <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                         30-day money-back
                       </div>
                     </div>
                     <div className="flex flex-row justify-between py-4 border-t-[1px] border-[#d4d4d4]">
-                      <div className="text-[#999999] text-[16px] font-normal">
+                      <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                         Delivery
                       </div>
-                      <div className="text-[#999999] text-[16px] font-normal">
+                      <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                         3 to 4 days
                       </div>
                     </div>
                     <div className="flex flex-row justify-between py-4 border-y-[1px] border-[#d4d4d4]">
-                      <div className="text-[#999999] text-[16px] font-normal">
+                      <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                         Price
                       </div>
-                      <div className="text-[#999999] text-[16px] font-normal">
+                      <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                         €1290
                       </div>
                     </div>
@@ -544,7 +544,7 @@ function App() {
 
         <div className="w-screen px-32 py-16 bg-[#F5F5F5] text-[#18181A] flex flex-col items-center">
           <div
-            className="text-[72px] font-semibold max-w-[1400px] leading-[80px]"
+            className="text-[72px] font-semibold max-w-[1400px] leading-[80px] overflow-hidden"
             ref={quote}
           >
             <h1>
@@ -561,10 +561,10 @@ function App() {
         <div className="flex flex-row items-center justify-center h-screen w-screen gap-4 bg-[#f5f5f5]">
           <div className="w-1/2 items-right justify-end flex">
             <div className="flex flex-col justify-center w-3/4 py-16 gap-4">
-              <div className="text-[#18181A] text-[48px] font-semibold">
+              <div className="text-[#18181A] text-[48px] font-semibold overflow-hidden">
                 Technical details.
               </div>
-              <div className="text-[#18181A] text-[16px] font-normal w-3/4">
+              <div className="text-[#18181A] text-[16px] font-normal w-3/4 overflow-hidden">
                 HEAVN One was developed in close cooperation with leading sleep
                 researchers and doctors. A well thought-out concept, which is
                 also reflected in the technical data.
@@ -581,7 +581,7 @@ function App() {
             <div className="flex flex-col justify-center items-right w-3/4 py-16 gap-4">
               <div className="flex flex-col w-4/5">
                 <div className="flex flex-row justify-between items-center py-4 border-t-[1px] border-[#d4d4d4] cursor-pointer">
-                  <div className="text-[#999999] text-[16px] font-normal">
+                  <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                     Dimensions and weight
                   </div>
                   <div className="text-[#999999] text-[16px] font-normal mr-5 animate-rotateLeft hover:animate-rotateRight rotate-0 transition-transform ease-in-out">
@@ -589,7 +589,7 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between items-center py-4 border-t-[1px] border-[#d4d4d4] cursor-pointer">
-                  <div className="text-[#999999] text-[16px] font-normal">
+                  <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                     Light characteristics
                   </div>
                   <div className="text-[#999999] text-[16px] font-normal mr-5 animate-rotateLeft hover:animate-rotateRight rotate-0 transition-transform ease-in-out">
@@ -597,7 +597,7 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between items-center py-4 border-t-[1px] border-[#d4d4d4] cursor-pointer">
-                  <div className="text-[#999999] text-[16px] font-normal">
+                  <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                     Sensors and options
                   </div>
                   <div className="text-[#999999] text-[16px] font-normal mr-5 animate-rotateLeft hover:animate-rotateRight rotate-0 transition-transform ease-in-out">
@@ -605,7 +605,7 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between items-center py-4 border-t-[1px] border-[#d4d4d4] cursor-pointer">
-                  <div className="text-[#999999] text-[16px] font-normal">
+                  <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                     Phys. electrical properties
                   </div>
                   <div className="text-[#999999] text-[16px] font-normal mr-5 animate-rotateLeft hover:animate-rotateRight rotate-0 transition-transform ease-in-out">
@@ -613,7 +613,7 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between items-center py-4 border-t-[1px] border-[#d4d4d4] cursor-pointer">
-                  <div className="text-[#999999] text-[16px] font-normal">
+                  <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                     Planning data
                   </div>
                   <div className="text-[#999999] text-[16px] font-normal mr-5 animate-rotateLeft hover:animate-rotateRight rotate-0 transition-transform ease-in-out">
@@ -621,7 +621,7 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between items-center py-4 border-y-[1px] border-[#d4d4d4] cursor-pointer">
-                  <div className="text-[#999999] text-[16px] font-normal">
+                  <div className="text-[#999999] text-[16px] font-normal overflow-hidden">
                     More
                   </div>
                   <div className="text-[#999999] text-[16px] font-normal mr-5 animate-rotateLeft hover:animate-rotateRight rotate-0 transition-transform ease-in-out">
