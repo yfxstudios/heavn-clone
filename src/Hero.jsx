@@ -57,7 +57,7 @@ const Hero = () => {
       <div
         className="w-screen h-screen absolute top-0 left-0 scale-[101%] overflow-hidden"
         style={{
-          backgroundImage: `url("src/assets/hero.jpg")`,
+          backgroundImage: `url("assets/hero.jpg")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -69,13 +69,14 @@ const Hero = () => {
         className="w-full h-full"
         style={
           {
-            // backgroundImage: `url("src/assets/hero.jpg")`,
+            // backgroundImage: `url("assets/hero.jpg")`,
             // backgroundSize: "cover",
             // backgroundPosition: "center",
             // backgroundRepeat: "no-repeat",
-          }}
-          >
-          <div
+          }
+        }
+      >
+        <div
           className="flex flex-col justify-center items-center h-[85%] opacity-100"
           ref={centerLogo}
         >

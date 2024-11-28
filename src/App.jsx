@@ -190,7 +190,7 @@ function App() {
           <div
             className="w-[100px] h-[18px] z-10"
             style={{
-              backgroundImage: `url("src/assets/logo.png")`,
+              backgroundImage: `url("assets/logo.png")`,
               backgroundSize: "contain",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -216,7 +216,7 @@ function App() {
               Light{" "}
               <div
                 style={{
-                  backgroundImage: `url(src/assets/heavn_0414.avif)`,
+                  backgroundImage: `url(assets/heavn_0414.avif)`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -260,7 +260,7 @@ function App() {
             <div className="flex flex-row justify-between w-screen">
               <div
                 style={{
-                  backgroundImage: "url(src/assets/heavn_0156.avif)",
+                  backgroundImage: "url(assets/heavn_0156.avif)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -286,7 +286,7 @@ function App() {
             <div className="flex flex-row justify-between w-screen">
               <div
                 style={{
-                  backgroundImage: "url(src/assets/heavn_0712.avif)",
+                  backgroundImage: "url(assets/heavn_0712.avif)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -310,7 +310,7 @@ function App() {
             <div className="flex flex-row justify-between w-screen">
               <div
                 style={{
-                  backgroundImage: "url(src/assets/heavn_2595.webp)",
+                  backgroundImage: "url(assets/heavn_2595.webp)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -337,7 +337,7 @@ function App() {
             >
               <div
                 style={{
-                  backgroundImage: "url(src/assets/heavn_2364.webp)",
+                  backgroundImage: "url(assets/heavn_2364.webp)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -368,7 +368,7 @@ function App() {
             <div className="flex flex-row justify-between w-screen">
               <div
                 style={{
-                  backgroundImage: "url(src/assets/heavn_2495.avif)",
+                  backgroundImage: "url(assets/heavn_2495.avif)",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -414,7 +414,7 @@ function App() {
                 {" "}
                 {[...Array(142)].map((_, i) => (
                   <img
-                    src={`src/assets/animation/${i + 1}.jpeg`}
+                    src={`assets/animation/${i + 1}.jpeg`}
                     alt=""
                     key={i + 1}
                     className="w-screen h-screen"
@@ -535,7 +535,7 @@ function App() {
         <div
           className="w-screen h-screen"
           style={{
-            backgroundImage: `url(src/assets/heavn_0001.avif)`,
+            backgroundImage: `url(assets/heavn_0001.avif)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
