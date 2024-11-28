@@ -181,7 +181,7 @@ function App() {
   return (
     <ReactLenis root>
       <div
-        className="w-screen overflow-x-hidden relative overflow-hidden"
+        className="w-screen overflow-x-hidden relative"
         style={{
           backgroundColor: "black",
         }}
